@@ -1,8 +1,8 @@
 {
-  "name": "op-shortcode-builder",
-  "version": "2.3.0",
+  "name": "oh-shortcode-builder",
+  "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://janizde.github.io/opening-hours-shortcode-builder/",
+  "homepage": "https://oh-opening-hours.github.io/opening-hours-shortcode-builder/",
   "private": false,
   "dependencies": {
     "class-bound-components": "^2.0.1",
