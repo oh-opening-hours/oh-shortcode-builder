@@ -1,10 +1,10 @@
-# Opening Hours Shortcode Builder 🧰 🔮 [![Build Status](https://travis-ci.com/janizde/opening-hours-shortcode-builder.svg?branch=master)](https://travis-ci.com/janizde/opening-hours-shortcode-builder)
+# O/H Shortcode Builder
 
-The _Opening Hours Shortcode Builder_ offsers a UI for interactively building shortcodes for the [Opening Hours WordPress Plugin](https://github.com/janizde/WP-Opening-Hours).
+The _Opening Hours Shortcode Builder_ offsers a UI for interactively building shortcodes for the [Opening Hours WordPress Plugin](https://github.com/oh-opening-hours/oh-opening-hours.
 
 ## Demo
 
-A demo can be seen at https://janizde.github.io/opening-hours-shortcode-builder/
+A demo can be seen at https://oh-opening-hours.github.io/oh-shortcode-builder/
 
 ## Options
 
@@ -35,9 +35,5 @@ https://domain.com/path/to/shortcode/builder#eyJzZXRzIjp7IjAiOiJGaXJzdCBTZXQiLCI
 > This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Changelog
-
-### v2.3.0
-
-- Add validation for required `set_id` field to prevent invalid shortcodes from being copied
 
 &copy; 2020 Jannik Portz – [License](./LICENSE)
