@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 const GitHubFork: React.FC = () => (
-  <a href="https://github.com/janizde/opening-hours-shortcode-builder">
+  <a href="https://github.com/oh-opening-hours/oh-shortcode-builder">
     <img
       className={'github-fork'}
       src={
