@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.61d470bf.css",
-  "main.css.map": "static/css/main.61d470bf.css.map",
-  "main.js": "static/js/main.c94a2afe.js",
-  "main.js.map": "static/js/main.c94a2afe.js.map"
+  "files": {
+    "main.css": "/oh-shortcode-builder/static/css/main.814f577d.css",
+    "main.js": "/oh-shortcode-builder/static/js/main.66311b7b.js",
+    "index.html": "/oh-shortcode-builder/index.html",
+    "main.814f577d.css.map": "/oh-shortcode-builder/static/css/main.814f577d.css.map",
+    "main.66311b7b.js.map": "/oh-shortcode-builder/static/js/main.66311b7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.814f577d.css",
+    "static/js/main.66311b7b.js"
+  ]
 }
