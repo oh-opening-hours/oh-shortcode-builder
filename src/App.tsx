@@ -5,7 +5,7 @@ import GitHubFork from './components/GitHubFork';
 
 import './app.css';
 
-const App: React.SFC<{}> = () => (
+const App: React.FC<{}> = () => (
   <React.StrictMode>
     <GitHubFork />
     <div className="container mt-3">

@@ -5,31 +5,43 @@
   "homepage": "https://oh-opening-hours.github.io/oh-shortcode-builder/",
   "private": false,
   "dependencies": {
-    "class-bound-components": "^2.0.1",
-    "copy-to-clipboard": "^3.0.8",
-    "formik": "^2.2.6",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts-ts": "^3.1.0",
+    "class-bound-components": "^2.0.3",
+    "copy-to-clipboard": "^3.3.3",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
     "yup": "^0.32.8"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "prettify": "prettier --write --parser typescript \"src/**/*.ts\" \"src/**/*.tsx\"",
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.19",
-    "@types/js.spec": "^1.0.4",
-    "@types/node": "^14.14.16",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/js.spec": "^1.0.7",
+    "@types/node": "^18.14.1",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "gh-pages": "^5.0.0",
-    "prettier": "^2.2.1",
-    "typescript": "^4.1.3"
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
